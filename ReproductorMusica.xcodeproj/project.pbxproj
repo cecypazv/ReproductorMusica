@@ -14,6 +14,15 @@
 		1F4F44111DC6E64700290C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F440F1DC6E64700290C45 /* LaunchScreen.storyboard */; };
 		1F4F441C1DC6E64700290C45 /* ReproductorMusicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F441B1DC6E64700290C45 /* ReproductorMusicaTests.swift */; };
 		1F4F44271DC6E64700290C45 /* ReproductorMusicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F44261DC6E64700290C45 /* ReproductorMusicaUITests.swift */; };
+		1F4F44351DC6E8D000290C45 /* helloAdele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F44341DC6E8D000290C45 /* helloAdele.jpg */; };
+		1F4F44371DC6E8DC00290C45 /* 01. Hello (mp3cut.net).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F44361DC6E8DC00290C45 /* 01. Hello (mp3cut.net).mp3 */; };
+		1F4F44391DC6F76800290C45 /* play.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F44381DC6F76800290C45 /* play.jpg */; };
+		1F4F443B1DC6F78C00290C45 /* stop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F443A1DC6F78C00290C45 /* stop.jpg */; };
+		1F4F443D1DC6F79500290C45 /* pausa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F443C1DC6F79500290C45 /* pausa.jpg */; };
+		1F4F443F1DC6F7D200290C45 /* 01 - Waiting For Love (mp3cut.net).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F443E1DC6F7D200290C45 /* 01 - Waiting For Love (mp3cut.net).mp3 */; };
+		1F4F44451DC6F8C400290C45 /* 01 Roar (mp3cut.net).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F44441DC6F8C400290C45 /* 01 Roar (mp3cut.net).mp3 */; };
+		1F4F44471DC6FE7A00290C45 /* avicii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F44461DC6FE7A00290C45 /* avicii.jpg */; };
+		1F4F44491DC6FE8000290C45 /* prism.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F4F44481DC6FE8000290C45 /* prism.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		1F4F44221DC6E64700290C45 /* ReproductorMusicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproductorMusicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4F44261DC6E64700290C45 /* ReproductorMusicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproductorMusicaUITests.swift; sourceTree = "<group>"; };
 		1F4F44281DC6E64700290C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4F44341DC6E8D000290C45 /* helloAdele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helloAdele.jpg; sourceTree = "<group>"; };
+		1F4F44361DC6E8DC00290C45 /* 01. Hello (mp3cut.net).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01. Hello (mp3cut.net).mp3"; sourceTree = "<group>"; };
+		1F4F44381DC6F76800290C45 /* play.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = play.jpg; sourceTree = "<group>"; };
+		1F4F443A1DC6F78C00290C45 /* stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stop.jpg; sourceTree = "<group>"; };
+		1F4F443C1DC6F79500290C45 /* pausa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pausa.jpg; sourceTree = "<group>"; };
+		1F4F443E1DC6F7D200290C45 /* 01 - Waiting For Love (mp3cut.net).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 - Waiting For Love (mp3cut.net).mp3"; sourceTree = "<group>"; };
+		1F4F44441DC6F8C400290C45 /* 01 Roar (mp3cut.net).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Roar (mp3cut.net).mp3"; sourceTree = "<group>"; };
+		1F4F44461DC6FE7A00290C45 /* avicii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avicii.jpg; sourceTree = "<group>"; };
+		1F4F44481DC6FE8000290C45 /* prism.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prism.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,15 @@
 		1F4F44051DC6E64600290C45 /* ReproductorMusica */ = {
 			isa = PBXGroup;
 			children = (
+				1F4F443E1DC6F7D200290C45 /* 01 - Waiting For Love (mp3cut.net).mp3 */,
+				1F4F44441DC6F8C400290C45 /* 01 Roar (mp3cut.net).mp3 */,
+				1F4F44481DC6FE8000290C45 /* prism.jpg */,
+				1F4F44461DC6FE7A00290C45 /* avicii.jpg */,
+				1F4F44341DC6E8D000290C45 /* helloAdele.jpg */,
+				1F4F443A1DC6F78C00290C45 /* stop.jpg */,
+				1F4F443C1DC6F79500290C45 /* pausa.jpg */,
+				1F4F44381DC6F76800290C45 /* play.jpg */,
+				1F4F44361DC6E8DC00290C45 /* 01. Hello (mp3cut.net).mp3 */,
 				1F4F44061DC6E64700290C45 /* AppDelegate.swift */,
 				1F4F44081DC6E64700290C45 /* ViewController.swift */,
 				1F4F440A1DC6E64700290C45 /* Main.storyboard */,
@@ -232,9 +259,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4F44351DC6E8D000290C45 /* helloAdele.jpg in Resources */,
+				1F4F44451DC6F8C400290C45 /* 01 Roar (mp3cut.net).mp3 in Resources */,
+				1F4F44391DC6F76800290C45 /* play.jpg in Resources */,
+				1F4F443D1DC6F79500290C45 /* pausa.jpg in Resources */,
+				1F4F44371DC6E8DC00290C45 /* 01. Hello (mp3cut.net).mp3 in Resources */,
+				1F4F443B1DC6F78C00290C45 /* stop.jpg in Resources */,
+				1F4F443F1DC6F7D200290C45 /* 01 - Waiting For Love (mp3cut.net).mp3 in Resources */,
 				1F4F44111DC6E64700290C45 /* LaunchScreen.storyboard in Resources */,
 				1F4F440E1DC6E64700290C45 /* Assets.xcassets in Resources */,
+				1F4F44471DC6FE7A00290C45 /* avicii.jpg in Resources */,
 				1F4F440C1DC6E64700290C45 /* Main.storyboard in Resources */,
+				1F4F44491DC6FE8000290C45 /* prism.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

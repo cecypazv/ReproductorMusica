@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReproductorMusica" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +18,138 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helloAdele.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BDo-tZ-24z">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="212" id="A6G-Aq-fhF"/>
+                                    <constraint firstAttribute="width" constant="240" id="ze3-ph-xXj"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25j-XI-Xk1">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="2Oq-LO-mue"/>
+                                    <constraint firstAttribute="width" constant="91" id="Xqa-YT-KC6"/>
+                                </constraints>
+                                <state key="normal" title="Play" image="play.jpg"/>
+                                <connections>
+                                    <action selector="play" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jea-P2-wrK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwj-Mv-YL1">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="N3G-dD-gY1"/>
+                                    <constraint firstAttribute="height" constant="75" id="iIi-dt-BdO"/>
+                                </constraints>
+                                <state key="normal" title="Pausa" image="pausa.jpg"/>
+                                <connections>
+                                    <action selector="pause" destination="BYZ-38-t0r" eventType="touchUpInside" id="zzz-3b-WPX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3N-PC-LVW">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="18C-tE-pPu"/>
+                                    <constraint firstAttribute="height" constant="75" id="9Ct-YH-91d"/>
+                                </constraints>
+                                <state key="normal" title="Stop" image="stop.jpg"/>
+                                <connections>
+                                    <action selector="stop" destination="BYZ-38-t0r" eventType="touchUpInside" id="fev-Kt-zmo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helloAdele.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ask-wL-tMm">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="28O-Jt-iHE"/>
+                                    <constraint firstAttribute="height" constant="89" id="PQ3-3b-BFn"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prism.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Seq-Md-6F8" userLabel="I">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="LAw-Uq-RHD"/>
+                                    <constraint firstAttribute="height" constant="89" id="NXz-S8-MWG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avicii.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ivg-j4-zS3">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="Mp0-4K-LdH"/>
+                                    <constraint firstAttribute="width" constant="91" id="enN-Vs-dkF"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3w-5h-MLw">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="kHu-52-m4F"/>
+                                    <constraint firstAttribute="height" constant="30" id="tZ8-iq-Swo"/>
+                                </constraints>
+                                <state key="normal" title="Adele"/>
+                                <connections>
+                                    <action selector="btnAdele" destination="BYZ-38-t0r" eventType="touchUpInside" id="guK-TX-DyI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebi-6w-TBe">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="2Va-NR-Eix"/>
+                                    <constraint firstAttribute="height" constant="30" id="RCq-ia-8As"/>
+                                </constraints>
+                                <state key="normal" title="Avicii"/>
+                                <connections>
+                                    <action selector="btnAvicii" destination="BYZ-38-t0r" eventType="touchUpInside" id="epB-gm-hvH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1j8-tm-fzU">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="Bug-NO-qQ9"/>
+                                    <constraint firstAttribute="height" constant="30" id="bgL-oa-Ptq"/>
+                                </constraints>
+                                <state key="normal" title="Katy Perry"/>
+                                <connections>
+                                    <action selector="btnKaty" destination="BYZ-38-t0r" eventType="touchUpInside" id="COz-0h-XZt"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R3w-5h-MLw" firstAttribute="top" secondItem="Ask-wL-tMm" secondAttribute="bottom" constant="8" id="1zI-Qr-rei"/>
+                            <constraint firstItem="25j-XI-Xk1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="2QM-Oi-brg"/>
+                            <constraint firstItem="R3w-5h-MLw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="4lA-Ur-Jsq"/>
+                            <constraint firstItem="25j-XI-Xk1" firstAttribute="top" secondItem="BDo-tZ-24z" secondAttribute="bottom" constant="5" id="5bG-Yk-BpR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1j8-tm-fzU" secondAttribute="trailing" constant="14" id="6hv-lv-lbk"/>
+                            <constraint firstItem="1j8-tm-fzU" firstAttribute="leading" secondItem="ebi-6w-TBe" secondAttribute="trailing" constant="44" id="9Rm-3m-2Y5"/>
+                            <constraint firstItem="Ask-wL-tMm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="ADa-kd-tl7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Nwj-Mv-YL1" secondAttribute="trailing" constant="109" id="F6Q-ED-hzS"/>
+                            <constraint firstItem="1j8-tm-fzU" firstAttribute="leading" secondItem="ebi-6w-TBe" secondAttribute="trailing" constant="44" id="GU6-GX-ypf"/>
+                            <constraint firstItem="ebi-6w-TBe" firstAttribute="top" secondItem="ivg-j4-zS3" secondAttribute="bottom" constant="8" id="Hc8-bb-1gw"/>
+                            <constraint firstItem="Nwj-Mv-YL1" firstAttribute="leading" secondItem="25j-XI-Xk1" secondAttribute="trailing" constant="8" id="QQn-wX-NW8"/>
+                            <constraint firstItem="1j8-tm-fzU" firstAttribute="top" secondItem="Seq-Md-6F8" secondAttribute="bottom" constant="8" id="TZN-A5-DbP"/>
+                            <constraint firstItem="BDo-tZ-24z" firstAttribute="top" secondItem="1j8-tm-fzU" secondAttribute="bottom" constant="98" id="TxP-ek-Rhw"/>
+                            <constraint firstItem="Seq-Md-6F8" firstAttribute="leading" secondItem="ivg-j4-zS3" secondAttribute="trailing" constant="21" id="XL4-94-bYQ"/>
+                            <constraint firstItem="Ask-wL-tMm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="adn-ba-4Yq"/>
+                            <constraint firstItem="ivg-j4-zS3" firstAttribute="leading" secondItem="Ask-wL-tMm" secondAttribute="trailing" constant="22" id="cPy-Ek-fOm"/>
+                            <constraint firstItem="Seq-Md-6F8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="cRo-WK-f98"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Seq-Md-6F8" secondAttribute="trailing" constant="14" id="f77-5K-gfZ"/>
+                            <constraint firstItem="Nwj-Mv-YL1" firstAttribute="top" secondItem="BDo-tZ-24z" secondAttribute="bottom" constant="5" id="gda-3r-fv8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d3N-PC-LVW" secondAttribute="trailing" constant="29" id="h4A-ME-VU4"/>
+                            <constraint firstItem="d3N-PC-LVW" firstAttribute="top" secondItem="BDo-tZ-24z" secondAttribute="bottom" constant="5" id="hiW-ub-skC"/>
+                            <constraint firstItem="d3N-PC-LVW" firstAttribute="leading" secondItem="25j-XI-Xk1" secondAttribute="trailing" constant="99" id="oUg-xB-ae5"/>
+                            <constraint firstItem="BDo-tZ-24z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="szN-rw-BXc"/>
+                            <constraint firstItem="Seq-Md-6F8" firstAttribute="leading" secondItem="ivg-j4-zS3" secondAttribute="trailing" constant="21" id="t1C-hs-NU9"/>
+                            <constraint firstItem="ebi-6w-TBe" firstAttribute="leading" secondItem="R3w-5h-MLw" secondAttribute="trailing" constant="73" id="u5x-1s-Zgs"/>
+                            <constraint firstItem="ivg-j4-zS3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="vrt-la-bHH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BDo-tZ-24z" secondAttribute="trailing" constant="65" id="w3B-iJ-AbY"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgcover" destination="BDo-tZ-24z" id="TMg-0i-64D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="avicii.jpg" width="1000" height="1000"/>
+        <image name="helloAdele.jpg" width="634" height="628"/>
+        <image name="pausa.jpg" width="57" height="75"/>
+        <image name="play.jpg" width="57" height="75"/>
+        <image name="prism.jpg" width="1000" height="1000"/>
+        <image name="stop.jpg" width="57" height="75"/>
+    </resources>
 </document>
